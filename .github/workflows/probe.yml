@@ -1,0 +1,42 @@
+# Timing probe: publishes probe.json (a counter and a timestamp) to GitHub Pages.
+# Used to measure deploy time and how fast a new file is visible. No data, no secrets.
+name: probe
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - name: Write probe file
+        run: |
+          mkdir -p site
+          printf '{"n":%s,"t":"%s"}\n' "${{ github.run_number }}" "$(date -u +%Y-%m-%dT%H:%M:%S.%3NZ)" > site/probe.json
+          cat site/probe.json
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy to GitHub Pages
+        id: deploy
+        uses: actions/deploy-pages@v4
+      - name: Note deploy finish time
+        run: date -u +%Y-%m-%dT%H:%M:%S.%3NZ
