@@ -1,1 +1,1 @@
-{"days":[{"day":"2026-10-27","labels":{},"unknown":2},{"day":"2026-10-28","labels":{},"unknown":2},{"day":"2026-10-29","labels":{"none":{"open":[0,1]}},"unknown":0}],"districts":["5900050","5900184"],"schema_version":1}
+{"days":[{"day":"2026-10-27","labels":{},"unknown":2},{"day":"2026-10-28","labels":{},"unknown":2},{"day":"2026-10-29","labels":{"none":{"open":[0,1]}},"unknown":0},{"day":"2026-10-30","labels":{"none":{"open":[0,1]}},"unknown":0}],"districts":["5900050","5900184"],"schema_version":1}
