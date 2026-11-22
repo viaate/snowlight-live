@@ -1,0 +1,1 @@
+{"code":"MWA","generated_at":"2026-11-22T14:11:48Z","months":[{"flights":[{"cancelled":2,"carrier":"OO","days":21,"lands":450,"late":1,"leaves":342,"number":6380,"to_airport":"ORD","weekdays":127},{"cancelled":0,"carrier":"OO","days":16,"lands":1027,"late":5,"leaves":924,"number":6377,"to_airport":"ORD","weekdays":125}],"month":"2026-09"}],"schema_version":1}
