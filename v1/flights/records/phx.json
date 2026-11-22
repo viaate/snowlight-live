@@ -1,0 +1,1 @@
+{"carriers":[],"code":"PHX","first":"2020-01-31","generated_at":"2026-11-22T14:11:48Z","last":"2026-09-30","lines":[{"bad":14,"bad_days":13,"better":25,"blocks":148,"days":128,"kind":3,"others":39,"share":38,"verdict":0,"worse":12},{"bad":2,"bad_days":1,"better":4,"blocks":15,"days":13,"kind":5,"others":100,"share":30,"verdict":0,"worse":0}],"schema_version":1}

@@ -1,0 +1,1 @@
+{"carriers":[],"code":"KOA","first":"2020-01-31","generated_at":"2026-11-22T14:11:48Z","last":"2026-09-30","lines":[{"bad":1,"bad_days":1,"better":0,"blocks":5,"days":5,"kind":3,"others":4,"share":31,"verdict":0,"worse":0},{"bad":8,"bad_days":5,"better":1,"blocks":16,"days":10,"kind":5,"others":114,"share":164,"verdict":0,"worse":3}],"schema_version":1}
