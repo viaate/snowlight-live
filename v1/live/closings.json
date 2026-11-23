@@ -1,1 +1,1 @@
-{"days":[{"announced":[20],"clocks":[],"day":"2026-11-23","details":[],"gaps":[26017],"manual":[],"reasons":[null],"shifts":[],"statuses":[0]}],"directory":{"districts":18227,"generated_on":"2026-10-14","schools":118211},"generated_at":"2026-11-23T00:45:59Z","schema_version":1}
+{"days":[{"announced":[25,0],"clocks":[],"day":"2026-11-23","details":[],"gaps":[26017,2494],"manual":[],"reasons":[null,null],"shifts":[],"statuses":[0,0]}],"directory":{"districts":18227,"generated_on":"2026-10-14","schools":118211},"generated_at":"2026-11-23T00:50:51Z","schema_version":1}
